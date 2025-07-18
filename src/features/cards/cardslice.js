@@ -15,4 +15,4 @@ export const cardsSlice = createSlice({
 
 export const selectCardById = (id) => (state) => state.cards.cards[id];
 export const { addCard } = cardsSlice.actions;
-export const cardsReducer = cardsSlice.reducer;
+export default cardsSlice.reducer;
