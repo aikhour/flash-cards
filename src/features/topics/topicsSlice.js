@@ -20,4 +20,8 @@ export const topicsSlice = createSlice({
 
 export const selectTopics = (state) => state.topics.topics;
 export const { addTopic } = topicsSlice.actions;
+<<<<<<< HEAD
 export const topicsReducer = topicsSlice.reducer;
+=======
+export default topicsSlice.reducer;
+>>>>>>> 96e3c2c7618bc4922fc4189576fb6c070edfcbd7
